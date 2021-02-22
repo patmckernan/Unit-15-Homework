@@ -117,15 +117,15 @@ WAFs are typically present on web sites that use strict transport security mecha
 
 1. Which layer of the OSI model do WAFs operate at?
 
-Answer: 
+Answer: WAF's operate at layer 7: application of the OSI model. 
 
 2. A WAF helps protect web applications by filtering and monitoring what?
 
-Answer:
+Answer: WAF helps protect web applications by monitoring and filtering HTTP traffic. 
 
 3. True or False: A WAF based on the negative security model (Blacklisting) protects against known attacks, and a WAF based on the positive security model (Whitelisting) allows pre-approved traffic to pass.
 
-Answer:
+Answer: True
 ____
 
 #### Authentication and Access Controls
@@ -138,29 +138,29 @@ Security enhancements designed to require users to present two or more pieces of
 
 1. Define all four factors of multifactor authentication and give examples of each:
 
-   - Factor 1:
+   - Factor 1: Knowledge factor. An example of this would be a login input such as a password, or PIN.
 
    
-   - Factor 2:
+   - Factor 2: Possession factor. An example of possession factor would be a software token, or smart card.
    
    
-   - Factor 3:
+   - Factor 3: Inherent factor. An example of an inherent factor would be biometric identification. (finger pring/retina scan)
 
    
-   - Factor 4:
+   - Factor 4: Location factor. An example of a location factor would be GPS detection, or a callback to a phone number. 
 
    
 2. True or False: A password and pin is an example of 2-factor authentication.
 
-Answer:
+Answer: False
    
 3. True or False: A password and `google authenticator app` is an example of 2-factor authentication.
 
-Answer:
+Answer: True
    
 4. What is a constrained user interface? 
 
-Answer:
+Answer: A constrained user interface is a security practice that will limit the user access to sensitive information, and the use of programs based on permissions. 
 
 ----
 ____
