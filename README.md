@@ -16,25 +16,27 @@ Use the graphic below to answer the following questions:
 
 1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system? 
 
-Answer:
+Answer: The parameter can be manipulated by an attacker to exploit a vulnerable back-end database system.
 
 2. Which part of the URL can be manipulated by an attacker to cause a vulnerable web server to dump the `/etc/passwd` file? Also, name the attack used to exploit this vulnerability.
 
-Answer:
+Answer: The path can be manipulated by an attacker to gain access to the /etc/passwd. The name of this attack is called Path Traversal.
    
 3. Name three threat agents that can pose a risk to your organization.
 
-Answer:
+Answer: Organized cybercriminals, hacktivits, insiders.
 
 4. What kinds of sources can act as an attack vector for injection attacks?
 
-Answer:
+Answer: Social engineering, web pages, email servers. 
 
 5. Injection attacks exploit which part of the CIA triad?
 
-Answer:
+Answer: Confidentialtiy, integrity, and authenticity. 
 
-6. Which two mitigation methods can be used to thwart injection attacks?
+6. Which two mitigation methods can be used to thwart injection attacks?\
+
+Answer: Input sanitization, and input validation can thwart injection attacks. 
 
 ____
 
