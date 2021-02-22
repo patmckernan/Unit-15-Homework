@@ -56,23 +56,23 @@ Use the graphic below to answer the following questions:
    
 1. What stage is the most inner part of the web architecture where data such as, customer names, addresses, account numbers, and credit card info, is stored?
 
-Answer:
+Answer: The inner most part of web architecture where the data is stored is stage 5: Database.
 
 2. Which stage includes online forms, word processors, shopping carts, video and photo editing, spreadsheets, file scanning, file conversion, and email programs such as Gmail, Yahoo and AOL.
 
-Answer:
+Answer: The stage that includes online forms, word processors, shopping carts, video and photo editing, spreadsheets, file scanning, file conversion, and email programs such as Gmail, Yahoo and AOL is stage 4: web application. 
 
 3. What stage is the component that stores files (e.g. HTML documents, images, CSS stylesheets, and JavaScript files) that's connected to the Internet and provides support for physical data interactions between other devices connected to the web?
 
-Answer:
+Answer: The stage of web server architecture that stores files such HTML documents, images, CSS stylesheets, and Javascript files is stage 3: web server. 
 
 4. What stage is where the end user interacts with the World Wide Web through the use of a web browser?
 
-Answer:
+Answer: The client side of the architecture is Stage 1: Client. 
 
 5. Which stage is designed to prevent unauthorized access to and from protected web server resources?
 
-Answer:
+Answer: The starge that is desinged to prevent unauthorized access is stage 2: Firewall. 
 
 ----
 
@@ -83,29 +83,29 @@ In today’s globally connected cyber community, network and OS level attacks ar
 
 1. What is the process called that cleans and scrubs user input in order to prevent it from exploiting security holes by proactively modifying user input.
 
-Answer:
+Answer: The process that cleans and scrubs user input to prevent the exploition of security holes is input sanitization. 
 
 2. Name the process that tests user and application-supplied input. The process is designed to prevent malformed data from entering a data information system by verifying user input meets a specific set of criteria (i.e. a string that does not contain standalone single quotation marks).
 
-Answer:
+Answer: The process that tests user and application-supplied input is input validation. 
 
 3. **Secure SDLC** is the process of ensuring security is built into web applications throughout the entire software development life cycle. Name three reasons why organization might fail at producing secure web applications.
 
-Answer:
+Answer: Three reasons why organizations might fail at producing secure web applications would be lack of policy enoforcement, insecure log in forms, and insecure logout management.
 
 4. How might an attacker exploit the `robots.txt` file on a web server?
 
-Answer:
+Answer: An attacker could use a malware bot in order to find the data in the robots.txt file which contains private information that is being hidden. 
 
 5. What steps can an organization take to obscure or obfuscate their contact information on domain registry web sites?
 
-Answer:
-   
+Answer: A company could use proxy information to obscure their contact information on domain registry. 
+  
 6. True or False: As a network defender, `Client-Side` validation is preferred over `Server-Side` validation because it's easier to defend against attacks.
 
    - Explain why you chose the answer that you did.
 
-Answer:
+Answer: False, you would want both client-side and server-side to have validation. Server-side is easier to mitigate than client-side attacks. 
 
 ____
 
@@ -117,7 +117,7 @@ WAFs are typically present on web sites that use strict transport security mecha
 
 1. Which layer of the OSI model do WAFs operate at?
 
-Answer:
+Answer: 
 
 2. A WAF helps protect web applications by filtering and monitoring what?
 
